@@ -1,6 +1,5 @@
 #(©)CodeXBotz
 #By @Codeflix_Bots
-
 import os
 import logging
 from logging.handlers import RotatingFileHandler
@@ -17,7 +16,7 @@ APP_ID = int(os.environ.get("APP_ID", "24172301"))
 API_HASH = os.environ.get("API_HASH", "ca79a5425fa6dbe58853ab66cc7bb168")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "--1002161968943"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002161968943"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7381899471"))
